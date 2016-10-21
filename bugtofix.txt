@@ -1,0 +1,2 @@
+bugs to fix
+ - xtp_plotPCA line 47 channelPairs

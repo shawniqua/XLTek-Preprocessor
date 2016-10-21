@@ -1,0 +1,255 @@
+<?xml version="1.0" ?>
+<Montage Modality="EEG" Format="XLTEK" Type="EK DB12 Longitudinal Bipolar + 10" NumChannels="35" NumGroups="28">
+   <Group Label="Cz-Pz" LineColour="red" NumChannels="2" Index="1">
+      Cz-Pz
+      <Input BackgroundColour="red">
+         Cz
+      </Input>
+      <Input BackgroundColour="red">
+         Pz
+      </Input>
+   </Group>
+   <Group Label="Fz-Cz" LineColour="red" NumChannels="2" Index="2">
+      Fz-Cz
+      <Input BackgroundColour="red">
+         Fz
+      </Input>
+      <Input BackgroundColour="red">
+         Cz
+      </Input>
+   </Group>
+   <Group Label="T6-O2" LineColour="black" NumChannels="2" Index="3">
+      T6-O2
+      <Input BackgroundColour="black">
+         T6
+      </Input>
+      <Input BackgroundColour="black">
+         O2
+      </Input>
+   </Group>
+   <Group Label="CP6-T6" LineColour="black" NumChannels="2" Index="4">
+      CP6-T6
+      <Input BackgroundColour="black">
+         CP6
+      </Input>
+      <Input BackgroundColour="black">
+         T6
+      </Input>
+   </Group>
+   <Group Label="T4-CP6" LineColour="black" NumChannels="2" Index="5">
+      T4-CP6
+      <Input BackgroundColour="black">
+         T4
+      </Input>
+      <Input BackgroundColour="black">
+         CP6
+      </Input>
+   </Group>
+   <Group Label="FC6-T4" LineColour="black" NumChannels="2" Index="6">
+      FC6-T4
+      <Input BackgroundColour="black">
+         FC6
+      </Input>
+      <Input BackgroundColour="black">
+         T4
+      </Input>
+   </Group>
+   <Group Label="F8-FC6" LineColour="black" NumChannels="2" Index="7">
+      F8-FC6
+      <Input BackgroundColour="black">
+         F8
+      </Input>
+      <Input BackgroundColour="black">
+         FC6
+      </Input>
+   </Group>
+   <Group Label="AF8-F8" LineColour="black" NumChannels="2" Index="8">
+      AF8-F8
+      <Input BackgroundColour="black">
+         AF8
+      </Input>
+      <Input BackgroundColour="black">
+         F8
+      </Input>
+   </Group>
+   <Group Label="Fp2-AF8" LineColour="black" NumChannels="2" Index="9">
+      Fp2-AF8
+      <Input BackgroundColour="black">
+         Fp2
+      </Input>
+      <Input BackgroundColour="black">
+         AF8
+      </Input>
+   </Group>
+   <Group Label="T5-O1" LineColour="blue" NumChannels="2" Index="10">
+      T5-O1
+      <Input BackgroundColour="blue">
+         T5
+      </Input>
+      <Input BackgroundColour="blue">
+         O1
+      </Input>
+   </Group>
+   <Group Label="CP5-T5" LineColour="blue" NumChannels="2" Index="11">
+      CP5-T5
+      <Input BackgroundColour="blue">
+         CP5
+      </Input>
+      <Input BackgroundColour="blue">
+         T5
+      </Input>
+   </Group>
+   <Group Label="T3-CP5" LineColour="blue" NumChannels="2" Index="12">
+      T3-CP5
+      <Input BackgroundColour="blue">
+         T3
+      </Input>
+      <Input BackgroundColour="blue">
+         CP5
+      </Input>
+   </Group>
+   <Group Label="FC5-T3" LineColour="blue" NumChannels="2" Index="13">
+      FC5-T3
+      <Input BackgroundColour="blue">
+         FC5
+      </Input>
+      <Input BackgroundColour="blue">
+         T3
+      </Input>
+   </Group>
+   <Group Label="F7-FC5" LineColour="blue" NumChannels="2" Index="14">
+      F7-FC5
+      <Input BackgroundColour="blue">
+         F7
+      </Input>
+      <Input BackgroundColour="blue">
+         FC5
+      </Input>
+   </Group>
+   <Group Label="AF7-F7" LineColour="blue" NumChannels="2" Index="15">
+      AF7-F7
+      <Input BackgroundColour="blue">
+         AF7
+      </Input>
+      <Input BackgroundColour="blue">
+         F7
+      </Input>
+   </Group>
+   <Group Label="Fp1-AF7" LineColour="blue" NumChannels="2" Index="16">
+      Fp1-AF7
+      <Input BackgroundColour="blue">
+         Fp1
+      </Input>
+      <Input BackgroundColour="blue">
+         AF7
+      </Input>
+   </Group>
+   <Group Label="P4-O2" LineColour="black" NumChannels="2" Index="17">
+      P4-O2
+      <Input BackgroundColour="black">
+         P4
+      </Input>
+      <Input BackgroundColour="black">
+         O2
+      </Input>
+   </Group>
+   <Group Label="CP2-P4" LineColour="black" NumChannels="2" Index="18">
+      CP2-P4
+      <Input BackgroundColour="black">
+         CP2
+      </Input>
+      <Input BackgroundColour="black">
+         P4
+      </Input>
+   </Group>
+   <Group Label="C4-CP2" LineColour="black" NumChannels="2" Index="19">
+      C4-CP2
+      <Input BackgroundColour="black">
+         C4
+      </Input>
+      <Input BackgroundColour="black">
+         CP2
+      </Input>
+   </Group>
+   <Group Label="FC2-C4" LineColour="black" NumChannels="2" Index="20">
+      FC2-C4
+      <Input BackgroundColour="black">
+         FC2
+      </Input>
+      <Input BackgroundColour="black">
+         C4
+      </Input>
+   </Group>
+   <Group Label="F4-FC2" LineColour="black" NumChannels="2" Index="21">
+      F4-FC2
+      <Input BackgroundColour="black">
+         F4
+      </Input>
+      <Input BackgroundColour="black">
+         FC2
+      </Input>
+   </Group>
+   <Group Label="Fp2-F4" LineColour="black" NumChannels="2" Index="22">
+      Fp2-F4
+      <Input BackgroundColour="black">
+         Fp2
+      </Input>
+      <Input BackgroundColour="black">
+         F4
+      </Input>
+   </Group>
+   <Group Label="P3-O1" LineColour="blue" NumChannels="2" Index="23">
+      P3-O1
+      <Input BackgroundColour="blue">
+         P3
+      </Input>
+      <Input BackgroundColour="blue">
+         O1
+      </Input>
+   </Group>
+   <Group Label="CP1-P3" LineColour="blue" NumChannels="2" Index="24">
+      CP1-P3
+      <Input BackgroundColour="blue">
+         CP1
+      </Input>
+      <Input BackgroundColour="blue">
+         P3
+      </Input>
+   </Group>
+   <Group Label="C3-CP1" LineColour="blue" NumChannels="2" Index="25">
+      C3-CP1
+      <Input BackgroundColour="blue">
+         C3
+      </Input>
+      <Input BackgroundColour="blue">
+         CP1
+      </Input>
+   </Group>
+   <Group Label="FC1-C3" LineColour="blue" NumChannels="2" Index="26">
+      FC1-C3
+      <Input BackgroundColour="blue">
+         FC1
+      </Input>
+      <Input BackgroundColour="blue">
+         C3
+      </Input>
+   </Group>
+   <Group Label="F3-FC1" LineColour="blue" NumChannels="2" Index="27">
+      F3-FC1
+      <Input BackgroundColour="blue">
+         F3
+      </Input>
+      <Input BackgroundColour="blue">
+         FC1
+      </Input>
+   </Group>
+   <Group Label="Fp1-F3" LineColour="blue" NumChannels="2" Index="28">
+      Fp1-F3
+      <Input BackgroundColour="blue">
+         Fp1
+      </Input>
+      <Input BackgroundColour="blue">
+         F3
+      </Input>
+   </Group>
+</Montage>

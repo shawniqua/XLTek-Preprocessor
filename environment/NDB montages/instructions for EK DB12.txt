@@ -1,0 +1,17 @@
+Instructions:
+
+Load a data file to work with
+Relabel the X1-X10 channels
+
+Create a new montage
+Enter a couple channels (doesn't matter what - it will be written over with the correct list later)
+Save the montage as follows (do this only once. name & save as should be exactly as below):
+	Name = EK DB12 Longitudinal Bipolar + 10
+	Notes = <whatever you want here>
+	Save As = EK DB12
+
+There should now be a new EK DB12.xml file in the directory <browser root>\ndb\XML\Config XML\Montage\EEG (where <browser root> is the name of the directory where you extracted the current version of the NDB files. E.g. on my windows machine it is C:\Program Files\NDB\Build103.2_13Apr2009)
+
+Replace the new EK DB12.xml file with the new EK DB12.xml file provided.
+
+Replace the Preprocessor/environment/xtp_build_environment with the new file provided.
