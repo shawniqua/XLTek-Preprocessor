@@ -120,7 +120,9 @@
 %6.8s 11/16/15 S. Williams      add hb_montage #37 (bipolar for natus)
 %6.9s 07/04/16 S. Williams      add hb_montage #38 bipolar channels of
 %                               interest for SVF05
-%7.0s 10/28/16 S. Williams 	add hb_montage #40 common average ref excluding bad channels for SVF01
+%7.0s 10/28/16 S. Williams      add hb_montage #40 common average ref excluding bad channels for SVF01
+%7.1s 10/29/16 S. Williams      add hb_montage #41 common average ref
+%                               excluding bad channels for SVF00
 %% start
 function xtp_build_environment()
 
@@ -1627,9 +1629,13 @@ XTP_HB_MONTAGES(38).channelNames = {...
 % #39: AVERAGE COMMON REF
 [~, ~, ~] = xtp_createMontage(14, 'avgRef', true, 'name', 'Average Common Ref Montage for Natus (128 channels in average!)');
 
-% #40: Common Avg ref for SVF01
-excludeChansSVF01 = [1:12 21 33];
-[~, ~, ~] = xtp_createMontage(14, 'avgRef', true, 'name', 'Common Avg Ref for SVF01', 'exclude', excludeChansSVF01);
+% #40: Common Avg ref for SVF01 **BASED ON ELECTRODE ORDER IN PORTAL
+excludeList = [1:12 21 33];
+[~, ~, ~] = xtp_createMontage(14, 'avgRef', true, 'name', 'Common Avg Ref for SVF01 - from portal', 'exclude', excludeList);
+
+% #41: Common Avg ref for SVF00 **BASED ON ELECTRODE ORDER IN PORTAL
+excludeList = [1:80 82 88 89 96 98 99 103 105 114 116 117 123 126 127];
+xtp_createMontage(14, 'avgRef', true', 'include', 1:128, 'exclude', excludeList, 'name', 'Common Avg Ref for SVF00 - from portal');
 
 
 %v6.0s - add plotLocations to all the HB_MONTAGES that have plotLocations
